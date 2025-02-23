@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Avanzada</title>
+    <script src="calculadora.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        input, button {
+            display: block;
+            margin: 10px 0;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Calculadora Avanzada</h2>
+    <label>Multiplicador nominal:</label>
+    <input type="number" id="multiplicador">
+
+    <label>Ia1 Primario:</label>
+    <input type="number" id="ia1Primario">
+    <label>Ia1 Secundario:</label>
+    <input type="number" id="ia1Secundario">
+
+    <label>Ic1 Primario:</label>
+    <input type="number" id="ic1Primario">
+    <label>Ic1 Secundario:</label>
+    <input type="number" id="ic1Secundario">
+
+    <label>Ia2 Primario:</label>
+    <input type="number" id="ia2Primario">
+    <label>Ia2 Secundario:</label>
+    <input type="number" id="ia2Secundario">
+
+    <label>Ic2 Primario:</label>
+    <input type="number" id="ic2Primario">
+    <label>Ic2 Secundario:</label>
+    <input type="number" id="ic2Secundario">
+
+    <button onclick="calcular()">Calcular</button>
+    <button onclick="limpiarCampos()">Limpiar Campos</button>
+
+    <h3>Resultados:</h3>
+    <p id="resultado"></p>
+</body>
+</html>
