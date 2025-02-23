@@ -39,7 +39,7 @@ function calcular() {
         % ERROR Ic2: ${errorIc2}% <br>
         ERROR PROM 1: ${errorProm1}% <br>
         ERROR PROM 2: ${errorProm2}% <br>
-        (E1+E2)/2: ${resultadoFinal}% <br>
+        E: ${resultadoFinal}% <br>
         MULTIPLICADOR ENCONTRADO: ${multiplicadorEncontrado}
     `;
 }
